@@ -1,0 +1,142 @@
+*{
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
+body{
+    background-color: rgb(74, 136, 186);
+}
+.main{
+    width: 1920px;
+    height: 500px;
+
+    
+}
+.main-1{
+    background-color: blueviolet;
+    width: 200px;
+    height: 300px;
+    position: absolute;
+    top: 0;
+    animation: m1 4s linear 0s infinite;
+
+}
+.main-2{
+    background-color: blueviolet;
+    width: 200px;
+    height: 300px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    animation: m2 4s linear 0s infinite;
+}
+.main-3{
+    background-color: blueviolet;
+    width: 200px;
+    height: 300px;
+    position: absolute;
+    top: 0;
+    /* top: 300px; */
+    right: 0;
+    animation: m3 4s linear 0s infinite;
+    z-index: 3;
+}
+@keyframes m1{
+    0%{
+        top: 0;
+    }
+    50%{
+        top: 300px;
+    }
+    100%{
+        top: 0;
+    }
+}
+@keyframes m2{
+    0%{
+        top: 300px;
+    }
+    50%{
+        top: 0px;
+    }
+    100%{
+        top: 300px;
+    }
+}
+@keyframes m3{
+    0%{
+        top: 0;
+    }
+    50%{
+        top: 300px;
+    }
+    100%{
+        top: 0;
+    }
+}
+.main-4{
+    background-color: blueviolet;
+    width: 300px;
+    height: 200px;
+    position: absolute;
+    bottom: 30px;
+    /* top: 300px; */
+    right: 0;
+    animation: m4 4s linear 0s infinite;
+    z-index: 3;
+}
+@keyframes m4{
+    0%{
+        right: 0;
+    }
+    50%{
+        right: 300px;
+    }
+    100%{
+        right: 0;
+    }
+}
+.main-5{
+    background-color: blueviolet;
+    width: 300px;
+    height: 200px;
+    position: absolute;
+    bottom: 30px;
+    /* top: 300px; */
+    left: 0;
+    animation: m5 4s linear 0s infinite;
+    z-index: 3;
+}
+@keyframes m5{
+    0%{
+        left: 0;
+    }
+    50%{
+        left: 300px;
+    }
+    100%{
+        left: 0;
+    }
+}
+/* .main-6{
+    background-color: blueviolet;
+    width: 200px;
+    height: 300px;
+    position: absolute;
+    bottom: 30px;
+    left: ;
+    animation: m6 4s linear 0s infinite;
+    z-index: 3;
+}
+@keyframes m6{
+    0%{
+        bottom: 0;
+    }
+    50%{
+        bottom: 300px;
+    }
+    100%{
+        bottom: 0;
+    }
+} */
